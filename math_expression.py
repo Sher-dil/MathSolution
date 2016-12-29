@@ -37,7 +37,7 @@ def solve_exp_by_mark(mark,expression_list):
 				expression_list[i]=float(expression_list[i-1])*float(expression_list[i+1])
 			elif mark=="/":
 				if expression_list[i+1]=='0':
-					return 'Can not divide number to Zero "
+					return 'Can not divide number to Zero '
 				expression_list[i]=float(expression_list[i-1])/float(expression_list[i+1])
 			elif mark=="-":
 				expression_list[i]=float(expression_list[i-1])-float(expression_list[i+1])
